@@ -1,0 +1,193 @@
+#logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
+    padding: 7px 10px;
+}
+#navbar{
+    display: flex;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding: 3px 20px;
+    color: rgb(9, 9, 9);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    
+}
+#foodimg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+#home::before{
+    content: "";
+    background: url('./fruits.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1; 
+    opacity: 0.89;
+   
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    
+}
+#home h1{
+    font-family: 'Croissant One', cursive;
+    color: black;
+    font-size: 3.5rem;
+}
+#home p{
+    
+    font-size: 1.2rem;
+}
+#home button{
+    background-color: rgb(245, 151, 151);
+    border-radius: 35px;
+    margin: 40px;
+    height: 50px; 
+    width: 150px;
+    font-size: 1.1rem;
+}
+#home button:hover{
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+    cursor: pointer;
+}
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+#foodordering{
+    border: 2px brown solid;
+    height: 400px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 238, 238);
+    border-radius: 28px;
+}
+#services{
+    font-size: 25px;
+}
+#foodordering img{
+height: 200px;
+width: 280px;
+padding: 10px;
+border-radius: 30px;
+}
+foodordering:hover{
+    
+}
+#foodordering h1{
+    font-size: 1.9rem
+}
+#foodordering p{
+    padding: 1px 35px;
+    font-size: 1.1rem;
+    margin: 0px;
+}
+#client-section-div{
+    background: url(./handshake.jpg) no-repeat center center/cover;
+    height: 300px;
+    opacity: 0.82;
+}
+#client-section-div h1{
+    font-size: 3.2rem;
+    color: black;
+    /* margin-top: 0px; */
+}
+#client-section{
+     display: flex;
+     flex-direction: row;
+     align-items: end; 
+     justify-content: center;
+     /* padding: 40px;  */
+     
+}
+.client-item img{
+    height: 100px;
+    padding: 34px;
+}
+.client-items img{
+    height: 100px;
+    padding: 14px;
+}
+#formdiv{
+    background: url(./contactus.jpg);
+    opacity: 0.8;
+    
+}
+#formdiv input{
+    width: 350px;
+    height: 25px;
+    border: black 2px solid;
+    border-radius: 11px;
+    
+}
+#formdiv textarea{
+    width: 350px;
+    height: 100px;
+    border: black 2px solid;
+    border-radius: 11px;
+    
+}
+.form{
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ftr{
+   background-color: rgb(32, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 1px;
+}
+.ftr p{
+    color: white;
+    
+}
